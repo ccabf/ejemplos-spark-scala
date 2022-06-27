@@ -44,9 +44,6 @@ object Ejemplo02JSON {
     sqlDF.show()
 
 
-
-
-
   }
 
 }

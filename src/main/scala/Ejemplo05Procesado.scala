@@ -9,7 +9,7 @@ object Ejemplos05Procesado {
     // Divide los datos y los limpia
     val headerAndRows = csv.map(
       line =>
-        line.split(",").map(_.trim)
+        line.split(",").map(_.trim) //trim quita los espacios
     )
     // Coge la cabecera del fichero (nombres de campos)
     val header = headerAndRows.first
